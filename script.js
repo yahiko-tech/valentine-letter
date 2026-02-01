@@ -20,11 +20,3 @@ function createHearts() {
     setTimeout(() => heart.remove(), 5000);
   }
 }
-<script>
-  const music = document.getElementById("bg-music");
-
-  document.addEventListener("click", () => {
-    music.volume = 0.3;
-    music.play();
-  }, { once: true });
-</script>
